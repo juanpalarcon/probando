@@ -1,0 +1,39 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "cabin";
+}
+
+p {
+  font-family: "cabin";
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.hr {
+  border-bottom: 2px solid gray;
+}
+
+.newsletter {
+  height: 300px;
+}
+
+.logo {
+  font-family: "lobster";
+}
+.contenido {
+  text-decoration: underline gray;
+}
+
+.line {
+  border-bottom: 1px solid gray;
+}
+
+.logo {
+  padding: 0 0 0 0;
+}
