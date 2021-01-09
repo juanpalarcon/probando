@@ -33,10 +33,7 @@ header {
   padding: 500px 15px 0px 15px;
 }
 
-p {
-  font-family: "cabin";
-  line-height: 270%;
-}
+
 .lemon {
   width: 140px;
 }
@@ -47,7 +44,20 @@ p {
 .fa-laptop-code {
   color: #660066;
 }
+.year {
+  font-weight: 300;
+  font-size: 40pt;
+  font-family: bodoni;
+}
+.exp {
+  color: #373A3C;
+  font-weight: bold;
+  font-size: 42pt;
+}
 
+.last-pro {
+  background-color: #660066;
+}
 .carousel-indicators li {
   width: 10px;
   height: 10px;
@@ -60,11 +70,4 @@ p {
 
 .logo {
   font-family: "lobster";
-}
-.contenido {
-  text-decoration: underline gray;
-}
 
-.logo {
-  padding: 0 0 0 0;
-}
