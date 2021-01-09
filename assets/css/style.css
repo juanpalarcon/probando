@@ -17,27 +17,30 @@ header {
 }
 .yosoy {
   padding-bottom: 0;
-}
-.a-im {
-  text-decoration: underline white;
-  padding: 0 auto;
+  font-weight: 50;
+  font-size: 60;
 }
 
+.line {
+  border-bottom: 2px solid white;
+  width: 500px;
+}
+.line2 {
+  border-bottom: 3px solid #373a3c;
+  width: 200px;
+}
 .foto1 {
   padding: 500px 15px 0px 15px;
 }
 
 p {
   font-family: "cabin";
+  line-height: 270%;
 }
 .carousel-indicators li {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-}
-
-.hr {
-  border-bottom: 2px solid gray;
 }
 
 .newsletter {
@@ -49,10 +52,6 @@ p {
 }
 .contenido {
   text-decoration: underline gray;
-}
-
-.line {
-  border-bottom: 1px solid gray;
 }
 
 .logo {
