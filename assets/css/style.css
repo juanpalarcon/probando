@@ -1,9 +1,30 @@
 h1,
-h2,
 h3,
 h4,
 h5 {
   font-family: "cabin";
+}
+
+nav {
+  background-color: #660066;
+}
+
+header {
+  background-image: url(../img/IMG-20201130-WA0038.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+.yosoy {
+  padding-bottom: 0;
+}
+.a-im {
+  text-decoration: underline white;
+  padding: 0 auto;
+}
+
+.foto1 {
+  padding: 500px 15px 0px 15px;
 }
 
 p {
