@@ -57,6 +57,13 @@ header {
 
 .last-pro {
   background-color: #660066;
+  padding: 60 100 60 100;
+}
+
+.works {
+  font-weight: bold;
+  font-size: 47pt;
+  margin-top: 0;
 }
 .carousel-indicators li {
   width: 10px;
