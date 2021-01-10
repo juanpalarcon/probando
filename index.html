@@ -30,7 +30,7 @@
   </head>
   <body>
     <!-- nav -->
-    <section class="mb-5">
+    <section class="mb-5 ">
       <nav
         id="navbar"
         class="navbar navbar-expand-lg navbar-light fixed-top t-4"
@@ -40,7 +40,7 @@
             <h1
               class="font-lobster text-right font-weight-bold text-white logo"
             >
-              <span>Jp</span>
+              <span class="logo">Jp</span>
             </h1>
           </a>
 
@@ -59,16 +59,16 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Sobre mi</a>
+                <a class="nav-link text-white" href="#sobre-mi">Sobre mi</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Experiencia</a>
+                <a class="nav-link text-white" href="#experiencia">Experiencia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Trabajos</a>
+                <a class="nav-link text-white" href="#works">Trabajos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Contacto</a>
+                <a class="nav-link text-white" href="#contact">Contacto</a>
               </li>
             </ul>
           </div>
@@ -76,7 +76,7 @@
       </nav>
     </section>
 
-    <header class="hero text-center py-5 mt-5">
+    <header id="sobre-mi" class="hero text-center py-5 mt-5 ">
       <div class="container foto1">
         <h2 class="text-uppercase text-white yosoy a-im">yo soy</h2>
         <hr class="line text-light" />
@@ -84,7 +84,7 @@
       </div>
     </header>
 
-    <section class="container my-5">
+    <section class="container my-5  	d-none d-md-block d-lg-none">
       <h2>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis
         ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit
@@ -93,7 +93,6 @@
       <hr class="line2" />
       <div class="row">
         <div class="col-md-6">
-          <!-- <h4 class="mb-5 contenido titulos text-uppercase">ingredientes</h4> -->
 
           <p class="my-5 mb-5">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec<br />
@@ -136,7 +135,7 @@
       <hr class="container hr" />
     </section>
 
-    <section class="container">
+    <section class="container" id="experiencia">
       <h1 class="text-uppercase text-center exp">mi experiencia</h1>
       <div class="mx-3"><hr class="line2 my-5" /></div>
       <div class="row">
@@ -153,7 +152,7 @@
       </div>
     </section>
 
-    <section class="container-fluid last-pro my-5">
+    <section class="container-fluid last-pro my-5" id="works">
       <div class="container">
         <h2 class="text-uppercase text-center text-white works mt-5">
           mis ultimos Trabajos
@@ -259,7 +258,7 @@
       </div>
     </section>
 
-    <section class="container my-5 col-md-3">
+    <section class="container my-5 col-md-3" id="contact" >
       <h2 id="contact" class="display-3 font-weight-bold text-center my-4">
         Contáctame
       </h2>
@@ -390,6 +389,24 @@
     </div>
     <hr class="container hr">
   </div>
+
+  <footer class="footer container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+       <h1 class="logo text-white text-center logo2   ">JUAN PABLO</h1>
+      </div>
+      <div class="col-md-6 footer">
+        <a href="https://github.com/juanpalarcon" target="_blank" ><i  class="fab  fa-github-square fa-5x"></i></a>
+        <a href="https://www.linkedin.com/in/juan-pablo-alarcon-8a02a8164/" target="_blank" ><i class="fab  fa-linkedin fa-5x"></i></a>
+        <a href="https://twitter.com/Juanpabloseba" target="_blank" ><i class="fab  fa-twitter-square fa-5x"></i></a>
+        <a href="https://www.facebook.com/juan.pablo.seba" target="_blank" ><i class="fab  fa-facebook-square fa-5x"></i></a>
+      </div>
+    </div>
+
+  </footer>
+
+
+
 
     <!--jQuery 3.3.1 sin slim-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

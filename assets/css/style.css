@@ -14,6 +14,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
+  object-fit: scale-down;
 }
 .yosoy {
   padding-bottom: 0;
@@ -33,7 +34,6 @@ header {
   padding: 500px 15px 0px 15px;
 }
 
-
 .lemon {
   width: 140px;
 }
@@ -50,14 +50,13 @@ header {
   font-family: bodoni;
 }
 .exp {
-  color: #373A3C;
+  color: #373a3c;
   font-weight: bold;
   font-size: 42pt;
 }
 
 .last-pro {
   background-color: #660066;
-
 }
 
 .works {
@@ -71,10 +70,26 @@ header {
   border-radius: 50%;
 }
 
-.newsletter {
-  height: 300px;
-}
-
 .logo {
   font-family: "lobster";
+}
 
+.footer {
+  background-color: #660066;
+  height: 200px;
+  display: inline-block;
+  padding: 0 0 0 0;
+}
+
+.logo2 {
+  margin-top: 80px;
+}
+.fab {
+  color: white;
+  margin-top: 70px;
+  margin-left: 10px;
+}
+
+.foto1 {
+  object-fit: scale-down;
+}
